@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="wrapper">
+    <div class="main-heading">
+      <h1>Survey Form - freeCodeCamp Assignment</h1>
+    </div>
+    <section class="survey-form">
+      <form class="main-form" action="index.html" method="post">
+        <label for="name-personal">Name</label><br>
+        <input type="text" name="name-personal" id="name-personal" placeholder="Enter your Name"> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required> <br>
+        <label for="age">Age</label> <br>
+        <input type="number" name="age" id="age" placeholder="Enter your Age"> <br>
+        <label for="select-option">Which option best describes your current role?</label> <br>
+        <select id="select-option" class="optiona" name="options">
+          <option value="">Select your ocupation</option>
+          <option value="">Student</option>
+          <option value="">Worker</option>
+          <option value="">Other</option>
+        </select>
+        <p>Where do you learn codding?</p> <br>
+        <input type="radio" name="radio" id="radio1" value="radio1">
+        <label for="radio1">freeCodeCamp</label> <br>
+        <input type="radio" name="radio" id="radio2" value="radio2">
+        <label for="radio2">w3schools</label> <br>
+        <input type="radio" name="radio" id="radio3" value="radio3">
+        <label for="radio3">You tube</label><br>
+        <p>What would you like to learn?</p>
+        <input type="checkbox" name="box1" id="box1" value="Javascript">
+        <label for="box1">Javascript</label> <br>
+        <input type="checkbox" name="box2" id="box2" value="Ruby">
+        <label for="box2">Ruby</label> <br>
+        <input type="checkbox" name="box3" id="box3" value="PHP">
+        <label for="box3">PHP</label> <br>
+        <input type="checkbox" name="box4" id="box4" value="Phyton">
+        <label for="box4">Phyton</label> <br>
+        <input type="checkbox" name="box5" id="box5" value="C#">
+        <label for="box5">C#</label> <br>
+        <input type="checkbox" name="box6" id="box6" value="C++">
+        <label for="box6">C++</label> <br>
+        <label for="txt">Any comments or suggestions?</label> <br>
+        <textarea name="txt" rows="8" cols="80"></textarea> <br>
+        <button type="submit" name="button">SUBMIT</button>
+      </form>
+
+    </section>
+  </main>
+
+</body>
+
+</html>
