@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #ccffff 0%, #9999ff 100%);
+}
+.wrapper .main-heading h1 {
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.survey-form {
+  -webkit-box-shadow: 5px 8px 7px 0 rgba(0, 0, 0, 0.87);
+  box-shadow: 3px 5px 4px 0 rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 30%;
+  margin-bottom: 12px;
+}
+.survey-form .main-form {
+  margin: 10px;
+}
+
+.main-form label {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.main-form p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.main-form .main-inputs {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 4px;
+  font-size: 12px;
+}
+.main-form .main-inputs textarea {
+  margin: 10px 0;
+  height: 150px;
+}
+.main-form button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
