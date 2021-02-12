@@ -1,2 +1,2 @@
 # survey-form
-Assignment form freeCodeCamp curriculum - survey form - practice
+Assignment from freeCodeCamp curriculum - survey form - practice
