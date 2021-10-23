@@ -1,18 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 @mixin labelStyle {
   font-size: 20px;
   font-weight: bolder;
 }
-@mixin hoverEffect {
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-}
+
 $letterSpacing: 3px;
 
 * {
   margin: 0;
   padding: 0;
-  font-family: tahoma;
+  font-family: 'Poppins', sans-serif;
 }
 
 .wrapper {
@@ -32,9 +30,6 @@ $letterSpacing: 3px;
     margin: 20px 10px;
     font-size: 40px;
 
-    &:hover {
-      @include hoverEffect;
-    }
   }
 }
 
@@ -45,6 +40,7 @@ $letterSpacing: 3px;
   border: 1px solid black;
   width: 35%;
   margin-bottom: 12px;
+  border-radius: 10px;
 }
 
 .main-form {
@@ -76,6 +72,8 @@ $letterSpacing: 3px;
   padding: 4px;
   font-size: 16px;
   font-weight:300;
+  border-radius: 5px;
+  border: none;
   textarea {
     margin: 10px 0;
   }
@@ -92,4 +90,7 @@ button {
   display: inline-block;
   font-size: 18px;
   border-radius: 5px;
+}
+button:hover {
+  background-color: blue;
 }

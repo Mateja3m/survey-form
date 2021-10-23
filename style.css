@@ -1,14 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: tahoma;
+  font-family: 'Poppins', sans-serif;
 }
 
 .wrapper {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#ccffff), to(#9999ff));
   background: linear-gradient(to right, #ccffff 0%, #9999ff 100%);
 }
 
@@ -20,33 +29,33 @@
   margin: 20px 10px;
   font-size: 40px;
 }
-.main-heading h1:hover {
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-}
 
 .survey-form {
   -webkit-box-shadow: 5px 8px 7px 0 rgba(0, 0, 0, 0.87);
   box-shadow: 3px 5px 4px 0 rgba(0, 0, 0, 0.87);
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid black;
   width: 35%;
   margin-bottom: 12px;
+  border-radius: 10px;
 }
 
 .main-form {
   margin: 10px;
 }
+
 .main-form label {
   font-size: 20px;
   font-weight: bolder;
 }
+
 .main-form p {
   font-size: 20px;
   font-weight: bolder;
   margin-top: 8px;
 }
+
 .main-form label .radio-items {
   font-weight: 100;
   padding: 2px;
@@ -54,14 +63,16 @@
 
 .main-inputs {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 8px;
   width: 80%;
   padding: 4px;
   font-size: 16px;
   font-weight: 300;
+  border-radius: 5px;
+  border: none;
 }
+
 .main-inputs textarea {
   margin: 10px 0;
 }
@@ -79,4 +90,7 @@ button {
   border-radius: 5px;
 }
 
+button:hover {
+  background-color: blue;
+}
 /*# sourceMappingURL=style.css.map */
